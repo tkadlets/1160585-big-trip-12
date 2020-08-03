@@ -1,7 +1,7 @@
 # Личный проект «Большое путешествие» [![Build status][travis-image]][travis-url]
 
 * Студент: [Лидия Ткадлец](https://up.htmlacademy.ru/ecmascript/12/user/1160585).
-* Наставник: `Неизвестно`.
+* Наставник: [Виталий Яковенко](https://up.htmlacademy.ru/ecmascript/12/user/376639).
 
 ---
 
