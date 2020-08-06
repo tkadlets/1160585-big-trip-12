@@ -309,13 +309,3 @@ for (let i = 0; i < POINTS_COUNT; i++) {
 
 const tripMain = document.querySelector(`.trip-main`);
 render(tripMain, createTripInfoTemplate(), `afterbegin`);
-
-
-
-
-
-
-
-
-
-
