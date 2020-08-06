@@ -303,9 +303,13 @@ render(dayItem, createPointsListTemplate(), `beforeend`);
 
 const pointsList = document.querySelector(`.trip-events__list`);
 
-for (let i = 0; i < POINTS_COUNT; i++) {
-  render(pointsList, createPointTemplate(), `afterbegin`);
-}
+const createPoints = () => {
+  for (let i = 0; i < POINTS_COUNT; i++) {
+    render(pointsList, createPointTemplate(), `afterbegin`);
+  }
+};
+
+createPoints();
 
 const tripMain = document.querySelector(`.trip-main`);
 render(tripMain, createTripInfoTemplate(), `afterbegin`);
